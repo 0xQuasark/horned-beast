@@ -48,6 +48,28 @@ Any environment configuration steps.
 
 ## Change Log
 
+### Day 2 Time Estimates
+
+#### Feature #1: Display Images
+Estimate of time needed to complete: 10 minutes
+Start time: 13:36
+Finish time: 13:39
+Actual time needed to complete: 3 minutes (I had compleed yesterday's stretch goal, so this was pretty simple)
+
+#### Feature #2: Allow Users to Favorite Individual Beasts
+Estimate of time needed to complete: 20 minutes
+Start time: 13:40
+Finish time: 14:03
+Actual time needed to complete: 23 minutes
+
+#### Feature 3: Bootstrap
+Estimate of time needed to complete: 45 minutes
+Start time: 14:06
+Finish time: 
+Actual time needed to complete: 
+
+
+
 ## Collaborators
 
 List collaborators here.
