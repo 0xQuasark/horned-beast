@@ -65,8 +65,8 @@ Actual time needed to complete: 23 minutes
 #### Feature 3: Bootstrap
 Estimate of time needed to complete: 45 minutes
 Start time: 14:06
-Finish time: 
-Actual time needed to complete: 
+Finish time: 15:16
+Actual time needed to complete: 70 minutes (caught up by weird image rendering issues)
 
 
 
