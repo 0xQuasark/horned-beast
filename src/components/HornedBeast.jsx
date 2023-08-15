@@ -1,7 +1,7 @@
 import React from 'react';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
-
+import heartIcon from '../assets/heart.png'
 
 class HornedBeast extends React.Component {
 
@@ -26,7 +26,8 @@ class HornedBeast extends React.Component {
         <Card.Body>
           <div className="headerContainer">
             <Card.Title>{this.props.title}</Card.Title>
-            <img src="/src/assets/heart.png" alt="heart"></img> 
+            {/* <img src="/src/assets/heart.png" alt="heart"></img>  */}
+            <img src={heartIcon} alt="heart"></img> 
             {this.state.timesFavorited}
           </div>
           <Card.Img variant="top" onClick={this.handleClick} src={this.props.imageURL} />
