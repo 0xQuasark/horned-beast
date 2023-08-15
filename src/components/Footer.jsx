@@ -1,4 +1,5 @@
 import React from 'react';
+import Button from 'react-bootstrap/Button';
 
 class Footer extends React.Component {
 
@@ -12,6 +13,7 @@ class Footer extends React.Component {
   render () {
     return (
       <footer>
+
         <h6>Handmade in WA, USA by {this.props.authorName}</h6>
       </footer>
     )
