@@ -50,7 +50,8 @@ class Gallery extends React.Component {
             description={beast.description}
           />
         ))}
-
+        {/* <HornedBeast title="my title1" /> */}
+        {/* <HornedBeast title="my title2" /> */}
       </div>
     )
   }
