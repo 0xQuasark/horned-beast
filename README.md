@@ -48,6 +48,16 @@ Any environment configuration steps.
 
 ## Change Log
 
+### Day 3 Time Estimates
+
+#### Feature #1: Display a Modal
+Estimate of time needed to complete: 80 minutes
+Start time: 13:50
+Finish time: 15:34
+Actual time needed to complete: 104 minutes
+
+
+
 ### Day 2 Time Estimates
 
 #### Feature #1: Display Images
