@@ -21,7 +21,6 @@ class HornedBeast extends React.Component {
   }
   
   handleImageClick = () => {
-    console.log('card clicked');
     this.props.specifyBeast(this.props.beastDetails);
   }
 
@@ -38,6 +37,7 @@ class HornedBeast extends React.Component {
           <Card.Img variant="top" onClick={this.handleImageClick} src={this.props.beastDetails.image_url} />
           <Card.Text>{this.props.beastDetails.description}</Card.Text>
           <Button variant="primary" onClick={this.handleFavoriteClick}>Favorite Me!</Button>
+          <Card.Text><strong>{this.props.beastDetails.horns} horns</strong></Card.Text>
         </Card.Body>
       </Card>
     );
