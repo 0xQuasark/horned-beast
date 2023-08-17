@@ -36,8 +36,6 @@ class App extends React.Component {
     let modalContent = null;
     if (this.state.isBeastSelected) {
 
-      // console.log(this.state.selectedBeastName);
-
       modalContent = (
         <SelectedBeast 
           isBeastSelected={this.state.isBeastSelected} 
@@ -51,7 +49,6 @@ class App extends React.Component {
       <>
         <Header />
         <Gallery beastDataValues={beastDataValues} specifyBeast={this.specifyBeast} />
-        {/* <HornedBeast subTitle="Little sub" /> */}
         {modalContent}
         <Footer authorName="Paul Brown" />
       </>
