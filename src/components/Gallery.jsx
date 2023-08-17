@@ -17,7 +17,6 @@ class Gallery extends React.Component {
   }
 
   handleCheckBoxChange = (numberOfHorns) => {
-    // let numberOfHorns = parseInt(stringOfHorns);
     let selectedHorns = this.state.selectedHorns;
 
     if (selectedHorns.includes(numberOfHorns)) {
@@ -32,13 +31,11 @@ class Gallery extends React.Component {
       selectedHorns: selectedHorns,
     });
 
-    // console.log(numberOfHorns, selectedHorns);
   }
 
   filterBeastsByHorns = () => {
     const selectedHorns = this.state.selectedHorns;
     return this.props.beastDataValues.filter(beast => {
-      // console.log(beast.horns, selectedHorns);
       return selectedHorns.includes(beast.horns);
     });
   }
@@ -88,7 +85,6 @@ class Gallery extends React.Component {
         <hr></hr>
         <Container>
           <Row>
-            {/* {this.props.beastDataValues.map((beast, index) => ( */}
             {filteredBeasts.map((beast, index) => (
               <Col key={index}>
                 <HornedBeast
